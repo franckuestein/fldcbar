@@ -1,6 +1,6 @@
 # fldcbar ![fldcbar](http://i.imgur.com/PQoud5S.png)
 
-Systray [menubar](https://github.com/maxogden/menubar) app based on [bitcoinbar](https://github.com/franckuestein/bitcoinbar) to check bitcoin price from your system menubar. It currently takes FoldingCoin price from Coinmarketcap public API.
+Systray [menubar](https://github.com/maxogden/menubar) app based on [bitcoinbar](https://github.com/franckuestein/bitcoinbar) to check foldingcoin price from your system menubar. It currently takes FoldingCoin price from Coinmarketcap public API.
 
 ![fldcbar screenshot](http://i.imgur.com/ZEQdR4Q.png)
 
@@ -8,7 +8,7 @@ Systray [menubar](https://github.com/maxogden/menubar) app based on [bitcoinbar]
 
 ## To-do list
 - [x] Source code first release
-- [ ] Release builds
+- [x] Release builds. v0.0.1-alpha [published](https://github.com/franckuestein/fldcbar/releases/tag/0.0.1)
 - [ ] New logo for the systray
 - [ ] New info to the app
 
