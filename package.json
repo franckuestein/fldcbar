@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "FoldingCoin desktop stats app",
   "dependencies": {
-    "electron": "^1.4.2",
-    "menubar": "^5.1.0",
-    "request": "^2.75.0"
+    "electron": "^1.5.0",
+    "electron-packager": "^5.2.1",
+    "menubar": "^5.2.0",
+    "request": "^2.79.0"
   },
   "devDependencies": {
     "electron": "^1.4.0",
