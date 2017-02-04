@@ -10,8 +10,10 @@ app.on('window-all-closed', function() {
 
 mb.on('ready', function ready () {
 	console.log('Running FoldingCoin ticker in your operating system.')
-})
+});
 
-/*mb.on('after-create-window', function(){
+/*
+// Developers console
+mb.on('after-create-window', function(){
 	mb.window.openDevTools();
-})*/
+});*/

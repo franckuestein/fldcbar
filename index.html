@@ -4,24 +4,45 @@
 <title>FoldingCoin</title>
 <link rel="stylesheet" href="css/spectre.min.css" />
 <link rel='stylesheet' href='css/typicons.min.css' />
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/style.min.css" />
 </head>
 <body>
 	<div class="container">
 	    <div class="columns">
 	        <div class="column col-md-12"><h2>FoldingCoin <small class="label">stats</small></h2></div> 
 	    </div>
+
 	    <div class="columns">
-	    	<div class="column col-md-12">
+	    	<div class="column col-md-12 current-price">
 	        	<h3><span class="icon icon-link"></span><span class="typcn typcn-arrow-repeat"> Current price</h3>
-        		<dl>
-        			<dt id="priceBtc"></dt>
-				    <dd id="volumeUsd"></dd>
-				    <dt id="priceUsd"></dt>
-				</dl>
+	    	</div>
+	    </div>
+	    
+	    <table class="table table-striped table-hover">
+		    <thead>
+		        <tr>
+		            <th>Poloniex</th>
+		            <th>Bittrex</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		        <tr class="selected">
+		            <td id="priceBtcPolo">...</td>
+		            <td id="priceBtcTtrex">...</td>
+		        </tr>
+		        <tr>
+		            <td id="volumeBtcPolo">Vol Poloniex</td>
+		            <td id="volumeBtcTtrex">Vol Bittrex</td>
+		        </tr>
+		    </tbody>
+		</table>
+
+		<div class="columns">
+	    	<div class="column col-md-12 change-24h">
 				<p>Change in the last 24h: <span id="change"></span></p>
 	    	</div>
 	    </div>
+		
 	    <span id="quit">Quit</span>
 	</div>
 </body>
