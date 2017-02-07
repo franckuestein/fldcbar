@@ -1,14 +1,31 @@
+/* Headings */
 h1{color:#930f0f;}
 h2{margin-top: 0.5rem;margin-bottom:0.1rem;color:#c5100b;}
 h3{margin-top:0.5rem;color:#c5100b;}
 
 body{font-size:18px;}
 
-.current-price{
-	padding: 1 1 0 1rem;
-}
+/* Price tab */
 .up{color: #2ECC40;}
 .down{color: #FF4136;}
 .same{color: #AAAAAA;}
 .change-24h{padding-bottom:0.3rem;}
+
+/* App navbar */
+ul.tab li a {
+    transition: .3s;
+}
+.tabcontent {
+    display: none;
+}
+.tab .tab-item a:focus,
+.tab .tab-item a:hover,
+.tab .tab-item.active a,
+.tab .tab-item a.active{
+	border-bottom-color: #c5100b !important;
+    color: #c5100b !important;
+}
+.tab .tab-item a.active [class*="icono-"]{
+	color: #c5100b;
+}
 #quit{font-size: 15px;}
