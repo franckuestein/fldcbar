@@ -2,15 +2,15 @@
 
 Systray [menubar](https://github.com/maxogden/menubar) app based on [bitcoinbar](https://github.com/franckuestein/bitcoinbar) to check foldingcoin price from your system menubar. It currently takes FoldingCoin price from Coinmarketcap public API.
 
-![fldcbar screenshot](http://i.imgur.com/ZEQdR4Q.png)
+![fldcbar screenshot](http://i.imgur.com/Xp9cqB3.png)
 
 *If it takes a bit to load all the information be patient, sometimes the api may fail.*
 
 ## To-do list
 - [x] Source code first release
 - [x] Release builds. v0.0.1-alpha [published](https://github.com/franckuestein/fldcbar/releases/tag/0.0.1)
-- [ ] New logo for the systray
-- [ ] New info to the app
+- [x] New logo for the systray
+- [x] New info to the app
 
 > Do you like it? Do you have any idea for fldcbar? Feel free to contribute! This is completely open-source 😉
 
