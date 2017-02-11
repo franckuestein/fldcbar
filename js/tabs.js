@@ -20,3 +20,12 @@ function openTab(evt, tab) {
     document.getElementById(tab).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+
+function openLink(url) {
+    const remote = require('electron').remote;
+    const BrowserWindow = remote.BrowserWindow;
+
+    var win = new BrowserWindow({ width: 800, height: 600 });
+    win.loadURL(url);
+}

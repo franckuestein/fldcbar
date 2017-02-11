@@ -5,20 +5,18 @@
 <link rel="stylesheet" href="css/spectre.min.css" />
 <link rel="stylesheet" href="css/icono.min.css">
 <link rel="stylesheet" href="css/style.min.css" />
+<meta name="twitter:dnt" content="on">
 </head>
 <body>
 	<ul class="tab tab-block">
 	    <li class="tab-item">
-	        <a href="javascript:void(0)" class="tablinks active" onclick="openTab(event, 'stats')" id="defaultOpen"><i class="icono-sync"></i></a>
+	        <a href="javascript:void(0)" class="tablinks active" onclick="openTab(event, 'stats')" id="defaultOpen"><i class="icono-barChart"></i></a>
 	    </li>
 	    <li class="tab-item">
-	        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'charts')"><i class="icono-areaChart"></i></a>
+	        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'social')"><i class="icono-share"></i></a>
 	    </li>
 	    <li class="tab-item">
-	        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'folding')"><i class="icono-barChart"></i></a>
-	    </li>
-	    <li class="tab-item">
-	        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'info')"><i class="icono-gear"></i></a>
+	        <a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'info')"><i class="icono-hamburger"></i></a>
 	    </li>
 	    <li class="tab-item">
 	        <a href="javascript:void(0)" id="quit"><i class="icono-power"></i></a>
@@ -57,25 +55,48 @@
 		
 	</div>
 
-	<div id="charts" class="container tabcontent">
+	<div id="social" class="container tabcontent">
 		<div class="columns">
-	        <div class="column col-md-12"><h2>Graphics</h2></div> 
-	    </div>
-  		<p></p> 
-	</div>
-
-	<div id="folding" class="container tabcontent">
-		<div class="columns">
-	        <div class="column col-md-12"><h2>Folding@home</h2></div> 
+	        <a class="twitter-timeline" data-dnt="true" data-theme="light" data-link-color="#c5100b" href="https://twitter.com/FoldingCoin" data-chrome="nofooter noborders noscrollbar">
+			Tweets by FoldingCoin</a>
+			<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 	    </div>
   		<p></p> 
 	</div>
 
 	<div id="info" class="container tabcontent">
-		<div class="columns">
-	        <div class="column col-md-12"><h2>Information</h2></div> 
-	    </div>
-  		<p></p> 
+		<ul class="menu m-development">
+		    <li class="menu-header">
+		        <span class="menu-header-text">
+		            Development
+		        </span>
+		    </li>
+		    <li class="menu-item">
+		        <a href="#" onclick="openLink('https://github.com/FoldingCoinNet')">Github</a>
+		    </li>
+		</ul>
+
+		<ul class="menu m-social">
+		    <li class="menu-header">
+		        <span class="menu-header-text">
+		            Social
+		        </span>
+		    </li>
+		    <li class="menu-item">
+		        <a href="#" onclick="openLink('http://slack.foldingcoin.net')">Slack</a>
+		    </li>
+		    <li class="menu-item">
+		        <a href="#" onclick="openLink('https://twitter.com/FoldingCoin')">Twitter</a>
+		    </li>
+		    <li class="menu-item">
+		        <a href="#" onclick="openLink('https://www.facebook.com/FoldingCoin')">Facebook</a>
+		    </li>
+		    <li class="menu-item">
+		        <a href="#" onclick="openLink('https://www.youtube.com/channel/UCc1YlgCEN3kMT6nI5suM76Q')">Youtube</a>
+		    </li>
+		</ul>
+
+		<p class="dev-info">If you like this app or you have development ideas, consider <a href="https://github.com/franckuestein/fldcbar">contributing</a>.</p>
 	</div>
 </body>
 <script type="text/javascript" src="js/fldcbar.js"></script>

@@ -5,18 +5,29 @@ h3{margin-top:0.5rem;color:#c5100b;}
 
 body{font-size:18px;}
 
-/* Price tab */
-.up{color: #2ECC40;}
-.down{color: #FF4136;}
-.same{color: #AAAAAA;}
-.change-24h{padding-bottom:0.3rem;}
+/* Font */
+a:hover,
+a:focus{ 
+    color: #c5100b !important;
+}
 
 /* App navbar */
 ul.tab li a {
     transition: .3s;
 }
 .tabcontent {
+	margin-top: 50px;
     display: none;
+}
+.tab-block{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: #FFFFFF;
+    top: 0;
+    width: 100%;
 }
 .tab .tab-item a:focus,
 .tab .tab-item a:hover,
@@ -29,3 +40,17 @@ ul.tab li a {
 	color: #c5100b;
 }
 #quit{font-size: 15px;}
+
+/* Price tab */
+.up{color: #2ECC40;}
+.down{color: #FF4136;}
+.same{color: #AAAAAA;}
+.change-24h{padding-bottom:0.3rem;}
+
+/* Information tab */
+.m-development,
+.m-social{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.dev-info{font-size: .7em;}
