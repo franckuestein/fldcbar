@@ -22,10 +22,10 @@ function priceStats(arr){
 	// 24h change check
 	if (percent_change_24h > 0){
 		document.getElementById("change").className += " up";
-		document.getElementById("change").innerHTML = "~"+percent_change_24h.toFixed(2)+" %";
+		document.getElementById("change").innerHTML = "~ +"+percent_change_24h.toFixed(2)+" %";
 	}else if (percent_change_24h < 0){
 		document.getElementById("change").className += " down";
-		document.getElementById("change").innerHTML = "~"+percent_change_24h.toFixed(2)+" %";
+		document.getElementById("change").innerHTML = "~ -"+percent_change_24h.toFixed(2)+" %";
 	}else{
 		document.getElementById("change").className += " same";
 		document.getElementById("change").innerHTML = "~"+percent_change_24h.toFixed(2)+" %";

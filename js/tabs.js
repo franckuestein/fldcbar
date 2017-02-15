@@ -22,6 +22,7 @@ function openTab(evt, tab) {
 }
 
 
+// Open links in new window function
 function openLink(url) {
     const remote = require('electron').remote;
     const BrowserWindow = remote.BrowserWindow;
